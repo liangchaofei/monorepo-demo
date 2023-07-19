@@ -1,0 +1,14 @@
+{
+  "name": "@alijk/pkg-b",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@alijk/pkg-a": "workspace:^"
+  }
+}
